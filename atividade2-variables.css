@@ -1,0 +1,40 @@
+#calc 
+{ 
+width: 250px;
+background-color: black;
+border-radius: 10px;
+border: solid 5px;
+border-color: black;
+}
+
+#calc .headerCalc 
+{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+#calc .headerCalc .area 
+{
+height: 40px;
+width: 270px;
+border-radius: 6px;
+text-align: right;
+margin-right: 5px;
+font-size: 20px;
+border: solid;
+}
+
+.tecla
+{
+width: 45px;
+height: 55px;
+margin-left: 1px;
+margin-bottom: 2px;
+border: solid;
+margin: 1px 1px 1px 1px
+cursor: pointer;
+font-size: 14px;
+background-color: purple;
+border-radius: 5px;
+}

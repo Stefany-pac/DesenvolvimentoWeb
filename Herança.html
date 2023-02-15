@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+        <style>
+
+            /*A declaração !important serve para forçar o CSS a usar a propriedade descrita nessa linha.*/
+            
+            div {
+                font-size: 14px;
+            }
+
+            p {
+                color: red;
+            }
+
+            div p {
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p> Este é um elemento div 1 </p>
+        <p> Este é um elemento div 2 </p>
+
+        <div>
+            <p>Este é um elemento (filho) div</p>
+        </div>
+    </body>
+
+</html>
